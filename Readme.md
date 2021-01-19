@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Иван Соловьёв](https://up.htmlacademy.ru/htmlcss/30/user/1409589).
-* Наставник: `Неизвестно`.
+* Наставник: `[Сергей Артёмов](https://htmlacademy.ru/profile/firefoxic)`.
 
 ---
 
