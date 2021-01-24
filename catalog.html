@@ -68,6 +68,15 @@
         <h2>Фильтр</h2>
         <form method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
+           <legend>Цена:</legend>
+           <label>
+            <input name="min-price" type="text" value="0">
+           </label>
+           <label>
+             <input name="max-price" type="text" value="30000">
+           </label>
+          </fieldset>
+          <fieldset>
             <legend>Производители:</legend>
             <ul>
               <li>
@@ -110,6 +119,22 @@
       </section>
       <section>
         <h2>Список перфораторов</h2>
+        <div>
+          <ul>
+            <li>
+              <span>СОРТИРОВКА</span>
+            </li>
+            <li>
+              <a href="#">ПО ЦЕНЕ</a>
+            </li>
+            <li>
+              <a href="#">ПО ТИПУ</a>
+            </li>
+            <li>
+              <a href="#">ПО ФУНКЦИОНАЛУ</a>
+            </li>
+          </ul>
+        </div>
         <ul>
           <li>
             <a href="#">
@@ -286,3 +311,5 @@
     </footer>
   </body>
 </html>
+
+
