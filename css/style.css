@@ -1,0 +1,124 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/cuprum.woff2") format("woff2"),
+       url("../fonts/cuprum.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-style: "normal";
+  font-weight: 700;
+  src: url("../fonts/cuprumbold.woff2") format("woff2"),
+       url("../fonts/cuprumbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/cuprumitalic.woff2") format("woff2"),
+       url("../fonts/cuprumitalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans.woff2") format("woff2"),
+       url("../fonts/ptsans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsansbold.woff2") format("woff2"),
+       url("../fonts/ptsansbold.woff") format("woff");
+}
+
+/* Variables */
+
+:root {
+--red: #EE3643;
+--bloody-red: #CA2C37;
+--dark-red: #BA2732;
+--white: #FFFFFF;
+--dark-white: #E5E5E5;
+--green: #5FBB2D;
+--apple-green: #63A63E;
+--light-green: #8ED78F;
+--dark-green: #518534;
+--blue: #32425C;
+--sky-blue: #3BBCE3;
+--dark-blue: #293449;
+--socials-blue: #212A3A;
+--black-blue: #1D2739;
+--black: #000000;
+--gray: #C5C5C5;
+--black-gray: #3D546F;
+--dark-gray: #A9A9A9;
+--light-gray: #F1F5F7;
+--radio-btn: #B5B5B5;
+--yellow: #FFBF47;
+--light-yellow: #FFD180;
+--pink: #DC91D8;
+--begie: #F9F5F0;
+--dark-begie: #F7F3EC;
+}
+
+body {
+  min-width: 960px;
+  font-family: "Cuprum", Arial, sans-serif;
+}
+
+/***************************header-top-panel***************************/
+.header-top{
+  color: var(--white);
+  background-color:var(--dark-blue);
+  height: 42px;
+}
+
+.main-header-logo {
+  background-color:var(--red);
+  height: 47px;
+}
+
+.header-top-list {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.site-navigation {
+  color: var(--white)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
